@@ -20,7 +20,7 @@ El repositorio está organizado de la siguiente manera:
   - `Codigo_propuesta_inicial.ipynb`: Notebook que contiene el código del avance inicial del proyecto.
 
 - **_documentacion_**: Carpeta donde se encuentra el informe final del proyecto.
-  - `Informe_Final_Analisis_Clustering.pdf`: Informe que contiene el análisis detallado y las conclusiones.
+  - `Informe_Proyecto_ANS.pdf`: Informe que contiene el análisis detallado y las conclusiones.
 
 ## Tecnologías Utilizadas
 
