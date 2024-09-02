@@ -1,2 +1,41 @@
-# proyecto_ans_grupo22
-Repositorio de archivos relacionados al proyecto de Análisis no Supervisado del Grupo 22. Maestría en Inteligencia Analítica de Datos - (MIAD)
+# PROYECTO "OBSERVATORIO LAFT: ANALÍTICA DE DATOS PARA LA PREVENCIÓN DE LAFT"
+
+## Descripción del Proyecto
+
+Este proyecto aborda el desafío de segmentar los clientes de una entidad financiera que ofrece billeteras digitales, con el objetivo de cumplir con la normativa de prevención de Lavado de Activos y Financiación del Terrorismo (LAFT) según la Circular Básica Jurídica (C.E. 029/14) y la actualización (C.E. 011/22) de la Superintendencia Financiera de Colombia.
+
+### Objetivo
+
+El objetivo principal es desarrollar un modelo de segmentación basado en técnicas de aprendizaje no supervisado, que permita identificar patrones de comportamiento para categorizar a los clientes según el riesgo que representan en términos de LAFT. Esto garantizará la homogeneidad dentro de los segmentos y la heterogeneidad entre ellos, facilitando la detección de operaciones inusuales y el cumplimiento normativo.
+
+## Estructura del Repositorio
+
+El repositorio está organizado de la siguiente manera:
+
+- **_datos_**: Esta carpeta contiene los archivos fuente utilizados en el análisis.
+  - `BASE_CUENTAS.csv`: Datos de cuentas de los clientes.
+  - `BASE_TRX.csv`: Datos de transacciones realizadas por los clientes.
+
+- **_codigo_**: Aquí se encuentra el código utilizado para el análisis.
+  - `Codigo_propuesta_inicial.ipynb`: Notebook que contiene el código del avance inicial del proyecto.
+
+- **_documentacion_**: Carpeta donde se encuentra el informe final del proyecto.
+  - `Informe_Final_Analisis_Clustering.pdf`: Informe que contiene el análisis detallado y las conclusiones.
+
+## Tecnologías Utilizadas
+
+- **Python**: Para el desarrollo de los modelos y análisis de datos.
+- **Bibliotecas de Python**: Scikit-learn, Pandas, Matplotlib, Seaborn, entre otras.
+
+## Instrucciones para Reproducir el Análisis
+
+1. Clonar el repositorio: 
+   ```bash
+   git clone [URL_DEL_REPOSITORIO]
+2. Navegar a la carpeta del proyecto:
+   ```bash
+   cd [NOMBRE_DEL_REPOSITORIO]
+3. Ejecutar el notebook Codigo_propuesta_inicial.ipynb para reproducir el análisis.
+
+## Contribuciones
+Este proyecto fue desarrollado como parte de la materia de Aprendizaje no supervisado de la Maestría en Inteligencia Analítica de Datos de la Universidad de los Andes, Colombia. Si tienes alguna sugerencia o encuentras algún problema, por favor abre un issue o envía una pull request.
