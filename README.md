@@ -12,7 +12,7 @@ El objetivo principal es desarrollar un modelo de segmentación basado en técni
 
 El repositorio está organizado de la siguiente manera:
 
-- **_datos_**: Esta carpeta contiene los archivos fuente utilizados en el análisis.
+- **_datos_**: Esta carpeta contiene una muestra sintética de los archivos fuente utilizados en el análisis. Ojo: Estos archivos no son los utilizados originalmente para el análisis, debido a que, por acuerdos de confidencialidad con la entidad financiera, se acordó no poner a disponibilidad pública los datos utilizados, sin embargo, adjuntamos una muestra sintética de los datos para que puedan identificar su estructura original.
   - `BASE_CUENTAS.csv`: Datos de cuentas de los clientes.
   - `BASE_TRX.csv`: Datos de transacciones realizadas por los clientes.
 
@@ -31,11 +31,11 @@ El repositorio está organizado de la siguiente manera:
 
 1. Clonar el repositorio: 
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
+   git clone https://github.com/marloz03/proyecto_ans_grupo22.git
 2. Navegar a la carpeta del proyecto:
    ```bash
-   cd [NOMBRE_DEL_REPOSITORIO]
-3. Ejecutar el notebook Codigo_propuesta_inicial.ipynb para reproducir el análisis.
+   cd proyecto_ans_grupo22
+3. Ejecutar el notebook Codigo_propuesta_inicial.ipynb para reproducir el análisis. En este paso es crucial que nos haga el requerimiento de los datos completos utilizados en el análisis, ya que por acuerdos de confidencialidad con la entidad financiera, estos no se pueden poner a disponibilidad pública.
 
 ## Contribuciones
 Este proyecto fue desarrollado como parte de la materia de Aprendizaje no supervisado de la Maestría en Inteligencia Analítica de Datos de la Universidad de los Andes, Colombia. Si tienes alguna sugerencia o encuentras algún problema, por favor abre un issue o envía una pull request.
