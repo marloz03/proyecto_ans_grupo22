@@ -12,15 +12,20 @@ El objetivo principal es desarrollar un modelo de segmentación basado en técni
 
 El repositorio está organizado de la siguiente manera:
 
+- **_codigo_**: Aquí se encuentra el código utilizado para el análisis.
+  - `Codigo_propuesta_inicial.ipynb`: Notebook que contiene el código del avance inicial del proyecto.
+
 - **_datos_**: Esta carpeta contiene una muestra sintética de los archivos fuente utilizados en el análisis. Ojo: Estos archivos no son los utilizados originalmente para el análisis, debido a que, por acuerdos de confidencialidad con la entidad financiera, se acordó no poner a disponibilidad pública los datos utilizados, sin embargo, adjuntamos una muestra sintética de los datos para que puedan identificar su estructura original.
   - `BASE_CUENTAS.csv`: Datos de cuentas de los clientes.
   - `BASE_TRX.csv`: Datos de transacciones realizadas por los clientes.
 
-- **_codigo_**: Aquí se encuentra el código utilizado para el análisis.
-  - `Codigo_propuesta_inicial.ipynb`: Notebook que contiene el código del avance inicial del proyecto.
-
 - **_documentacion_**: Carpeta donde se encuentra el informe final del proyecto.
   - `Informe_Proyecto_ANS.pdf`: Informe que contiene el análisis detallado y las conclusiones.
+
+- **_resultados preliminares_**: Carpeta donde se encuentran los resultados obtenidos de la fase inicial del proyecto.
+  - `descriptivos.png`: Imagen con visualizaciones descriptivas de las distribuciones de las variables.
+  - `correlograma.png`: Visualización del correlograma entre las variables numéricas.
+  - `graficos_dispersion.png`: Imagen con gráficos de dispersión entre las variables con correlación más alta.
 
 ## Tecnologías Utilizadas
 
